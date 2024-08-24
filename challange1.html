@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Users and Posts</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 20px;
+            background-color: #f0f2f5;
+            color: #333;
+        }
+        .user-list, .post-list {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+            width: 300px;
+        }
+        .user-list {
+            margin-right: 40px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .user-item {
+            margin: 0;
+            padding: 15px;
+            cursor: pointer;
+            background-color: #4CAF50;
+            color: white;
+            border-bottom: 1px solid #e0e0e0;
+            transition: background-color 0.3s, transform 0.2s;
+        }
+        .user-item:hover {
+            background-color: #45a049;
+            transform: scale(1.02);
+        }
+        .post-list {
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+        }
+        .post-item {
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #4CAF50;
+            color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .post-item strong {
+            display: block;
+            margin-bottom: 10px;
+            font-size: 1.2em;
+            color: #ffeb3b;
+        }
+    </style>
+</head>
+<body>
+
+    <ul class="user-list">
+        <!-- User items will be injected here -->
+    </ul>
+
+    <ul class="post-list">
+        <!-- Post items will be injected here -->
+    </ul>
+
+
+    <script src="./challange1.js"></script>
+</body>
+</html>
